@@ -1,0 +1,29 @@
+{
+  "name": "fixbridge",
+  "version": "2.0.0",
+  "private": true,
+  "description": "FixBridge full-stack local service marketplace demo using Express and MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "netlify:dev": "netlify dev",
+    "netlify:deploy": "netlify deploy --prod"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "mongodb": "^6.21.0",
+    "multer": "^2.0.2",
+    "openai": "^6.0.0",
+    "serverless-http": "^3.2.0"
+  },
+  "devDependencies": {
+    "netlify-cli": "^27.10.1"
+  }
+}

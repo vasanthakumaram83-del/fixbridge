@@ -1,0 +1,10 @@
+node_modules/
+.npm-cache/
+.env
+.env.*
+!.env.example
+.netlify/
+.netlify-home/
+.netlify-local/
+npm-debug.log*
+.DS_Store
