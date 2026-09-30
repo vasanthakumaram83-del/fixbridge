@@ -1,0 +1,13 @@
+[hidden]{display:none!important}
+.search-row{align-items:center;flex-wrap:wrap}
+.search-row .search-input{min-width:155px;flex:1}
+.part-card small{color:#809087;font-size:8px;letter-spacing:.06em}
+.request-meta a{color:#57794a;font-weight:600}
+.request-bottom{gap:12px;flex-wrap:wrap}
+.request-bottom .small-btn{margin-left:auto}
+.admin-actions .small-btn{display:inline-flex;align-items:center;text-decoration:none}
+.form-error{color:#a54136;font-size:10px;margin-top:8px;min-height:14px}
+.form-hint{display:block;color:#89948b;font-size:9px;line-height:1.5;margin-top:3px}
+.status-pill{max-width:175px;white-space:normal;text-align:center}
+.receipt{page-break-inside:avoid}
+@media(max-width:520px){.search-row{display:grid;grid-template-columns:1fr}.search-row .search-input,.search-row .filter-select{width:100%;min-height:40px}.request-bottom .small-btn{margin-left:0}.modal-wide{max-height:96vh}}
